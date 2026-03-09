@@ -1,0 +1,250 @@
+/* ======================================================
+   GLOBAL CARD LAYOUT SYSTEM
+   (ADD THIS AT END OF CSS)
+====================================================== */
+
+/* main content cards */
+
+.card,
+.owner-card,
+.profile-card,
+.form-card{
+
+background:#ffffff;
+
+padding:28px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+margin:22px auto;
+
+max-width:720px;
+
+}
+
+
+/* paragraphs inside cards */
+
+.card p,
+.owner-card p,
+.profile-card p{
+
+font-size:17px;
+
+line-height:1.7;
+
+color:var(--text-muted);
+
+margin-bottom:16px;
+
+}
+
+
+/* sections become card containers */
+
+.section{
+
+padding:40px 0;
+
+}
+
+
+/* warning box card style */
+
+.warning-box{
+
+background:#eef5ff;
+
+border-left:5px solid var(--linkedin-blue);
+
+padding:18px;
+
+border-radius:12px;
+
+margin:20px auto;
+
+max-width:720px;
+
+}
+
+
+/* info rows */
+
+.info-row{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:14px 0;
+
+border-bottom:1px solid #eee;
+
+}
+
+
+/* profile block cards */
+
+.profile-block{
+
+background:#f8fbff;
+
+padding:18px;
+
+border-radius:12px;
+
+margin-top:16px;
+
+}
+
+
+/* action buttons container */
+
+.action-buttons{
+
+margin-top:20px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:12px;
+
+}
+
+
+/* button style upgrade */
+
+.btn-primary{
+
+background:#0A66C2;
+
+color:white;
+
+padding:15px;
+
+border-radius:40px;
+
+text-align:center;
+
+font-weight:600;
+
+text-decoration:none;
+
+transition:0.2s;
+
+box-shadow:0 5px 12px rgba(10,102,194,0.25);
+
+}
+
+.btn-primary:hover{
+
+background:#004182;
+
+}
+
+
+.btn-secondary{
+
+border:2px solid #0A66C2;
+
+color:#0A66C2;
+
+padding:14px;
+
+border-radius:40px;
+
+text-align:center;
+
+font-weight:600;
+
+text-decoration:none;
+
+transition:0.2s;
+
+}
+
+.btn-secondary:hover{
+
+background:#0A66C2;
+
+color:white;
+
+}
+
+
+/* social buttons */
+
+.social-buttons{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+margin-top:16px;
+
+}
+
+.social-buttons a{
+
+background:#eef5ff;
+
+padding:8px 14px;
+
+border-radius:30px;
+
+font-size:14px;
+
+text-decoration:none;
+
+color:#0A66C2;
+
+font-weight:600;
+
+}
+
+
+/* map container */
+
+.map-box{
+
+border-radius:16px;
+
+overflow:hidden;
+
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+
+margin-top:20px;
+
+}
+
+.map-box iframe{
+
+width:100%;
+
+height:260px;
+
+border:none;
+
+}
+
+
+/* make paragraphs look like sections */
+
+.container > p{
+
+background:white;
+
+padding:22px;
+
+border-radius:16px;
+
+box-shadow:0 8px 25px rgba(0,0,0,0.06);
+
+margin-bottom:20px;
+
+}
